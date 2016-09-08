@@ -1,0 +1,21 @@
+body{
+  background: url("http://tmunz.com/wp-content/uploads/2014/04/Gnarly.jpg") center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+div{
+  width: 500px;
+  border: 1px black solid;
+  background: rgba(255, 255, 255, 0.7);
+}
+div img{
+  max-width: 100%;
+}
+h1{
+  font-family: 'Monoton', cursive;
+  font-size: 3em !important;
+  color: white;
+}
+.well{
+  margin: 0 auto;
+}

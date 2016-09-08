@@ -3,19 +3,43 @@ body{
   background-size: cover;
   background-attachment: fixed;
 }
-div{
-  width: 500px;
-  border: 1px black solid;
-  background: rgba(255, 255, 255, 0.7);
-}
-div img{
-  max-width: 100%;
-}
+
+
 h1{
   font-family: 'Monoton', cursive;
-  font-size: 3em !important;
+  font-size: 5em !important;
   color: white;
+
+}
+.newCdForm{
+  width: 400px;
+  height: 500px;
+  background: rgba(255, 255, 255, 0.7) !important;
 }
 .well{
+  text-align: center;
   margin: 0 auto;
+  background: transparent !important;
+}
+.cdContainer{
+  background: rgba(255, 255, 255, 0.7) !important;
+  font-size: 2em !important;
+  font-weight: bold !important;
+  width: 400px;
+  height: 500px;
+  display: inline-block !important;
+  padding-top: 20px;
+}
+.cdContainer:hover{
+    box-shadow: 14px 14px 13px black;
+}
+.cdContainer img{
+  max-width: 90%;
+}
+.artist{
+  text-transform: uppercase;
+  font-family: 'Monoton', cursive;
+}
+span{
+  display: block;
 }

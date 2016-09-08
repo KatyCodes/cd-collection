@@ -8,12 +8,18 @@
     <h1>You added a CD to your Collection!</h1>
       <div class="container">
         <div class="well">
-          <img src="{{new_cd.image}}" alt="{{new_cd.artist}}" /><br>
-          <span class="artist">{{new_cd.artist}}</span><br>
-          <span class="price">${{new_cd.price}}</span>
+          <div class="cdContainer">
+            <img src="{{new_cd.image}}" alt="{{new_cd.artist}}" />
+            <span class="artist">{{new_cd.artist}}</span>
+            <span class="price">${{new_cd.price}}</span>
+            <a href="/collection"><button type="button" name="button">View Collection</button></a>
+            <a href="/"><button type="button" name="button"> Home</button></a>
+          </div>
+
         </div>
       </div>
-    </body>
+
+  </body>
 
 
 </html>

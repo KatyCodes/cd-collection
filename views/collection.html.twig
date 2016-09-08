@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Your CD Collection</title>
+    </head>
+    <body>
+
+      <div class="container">
+        <div class="well">
+          <h1>Collection</h1>
+          {% if cds is not empty %}
+            {% for cd in cds %}
+              <div class="cdContainer">
+                <span class="artist">{{cd.artist}}</span>
+                <img src="{{cd.image}}" alt="{{cd.artist}}" />
+                <span class="price">${{cd.price}}</span>
+              </div>
+              {% endfor %}
+          {% endif %}
+        <a href="/"><button type="button" name="button">Home</button></a>
+        </div>
+      </div>
+
+
+
+
+
+        <!-- <form class="" action="/delete" method="post">
+          <button type="submit" name="button">DELETE ALL ADDS</button>
+        </form> -->
+    </body>
+
+
+</html>

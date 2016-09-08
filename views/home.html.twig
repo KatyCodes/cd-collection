@@ -19,22 +19,21 @@
       <h1>Enter a cd from your collection</h1>
       <div class="container">
         <div class="well">
-          <form class="" action="/new_cd" method="post">
+          <form class="newCdForm" action="/new_cd" method="post">
             <label for="">Artist</label>
-            <input type="text" name="artist" value="">
+            <input class="form-control" type="text" name="artist" value="">
             <label for="">Price</label>
-            <input type="text" name="price" value="">
+            <input class="form-control"type="text" name="price" value="">
             <label for="">Album Cover</label>
-            <input type="text" name="image" value="">
-            <button type="submit" name="button">Submit</button>
+            <input class="form-control"type="text" name="image" value="">
+            <button class="form-control btn btn-danger" type="submit" name="button">Submit</button>
+            <a href="/collection"><button class="form-control btn btn-danger" type="button" name="button">View All CDs</button></a>
           </form>
         </div>
       </div>
-
-
-        <!-- <form class="" action="/delete" method="post">
-          <button type="submit" name="button">DELETE ALL ADDS</button>
-        </form> -->
+        <form class="" action="/delete" method="post">
+          <button class="btn btn-danger" type="submit" name="button">DELETE ALL CDS</button>
+        </form>
     </body>
 
 

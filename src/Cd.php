@@ -27,6 +27,20 @@ function getImage()
 {
   return $this->image;
 }
+function save()
+{
+  array_push($_SESSION["allCds"], $this);
+}
+static function getAll()
+{
+    return $_SESSION['allCds'];
+}
+static function deleteAll()
+{
+    $_SESSION['allCds'] = array();
+}
+
+
 
 }
 ?>
